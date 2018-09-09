@@ -1,0 +1,91 @@
+.top-bar-wrapper {
+    height: 60px;
+    width: 100%;
+    background-color: #000000;
+    z-index: 2;
+    display: flex;
+    .menuIcon{
+        margin-top: 16px;
+        padding-left: 20px;
+        img{
+            height: 18px;
+        }
+    }
+    .chaseforbusiness{
+        text-align: center;
+        img{
+            height: 60px;
+        }
+    }
+    
+    .topButtons{
+        display: block;
+        margin-top: 16px;
+        .loginBtn{
+            float: right;
+            a{
+                background-color: #1a72f8;
+                border-radius: 3px;
+                padding-top: 3px;
+                padding-left: 9px;
+                padding-bottom: 6px;
+                padding-right: 9px;
+                font-weight: 100;
+                font-size: 14px;
+                margin-right: 14px;
+            }
+        }
+        .languageDD{
+            margin-right: 10px;
+            float: right;
+            position: relative;
+            .Dropdown-root{
+                min-width: 145px;
+                background-color: #fff;
+                padding: 2px;
+                border-radius: 3px;
+            }
+            .Dropdown-placeholder {
+                color: #000;
+            }
+            .Dropdown-option{
+                color: #000;
+            }
+            img{
+                position: absolute;
+                top: 7px;
+                right: 8px;
+                z-index: 1;
+            }
+        }
+        .searchBtn{
+            float: right;
+            margin-left: 20px;
+        }
+    }
+    @media (max-width: 992px){
+        .chaseforbusiness{
+            padding-left: 0px;
+        }
+    }
+    @media only screen and (max-width: 780px) {
+        .topButtons{
+            display: none;
+        }
+    }
+    @media (max-width: 576px){
+        .chaseforbusiness, .menuIcon {
+            float: left;
+            text-align: left
+        }   
+        .chaseforbusiness{
+            width: 80%;
+            padding-left: 12px;
+        }
+        .menuIcon{
+            padding-left: 15px;
+            width: 12%;
+            margin-top: 15px;
+        }
+    }
+}

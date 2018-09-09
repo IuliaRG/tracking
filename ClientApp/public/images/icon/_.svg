@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="20px" viewBox="0 0 14 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/?</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Kit---3" transform="translate(-108.000000, -262.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="icon/?" transform="translate(105.000000, 262.000000)">
+                <path d="M11.75,13.75 L8,13.75 C8,10 10,8.75 11.375,8 C11.875,7.75 12.25,7.5 12.5,7.25 C13.125,6.625 12.875,5.75 12.75,5.5 C12.375,4.625 11.5,3.75 9.875,3.75 C7.25,3.75 6.75,6.125 6.75,6.625 L3,6.125 C3.25,4 5.125,0 9.875,0 C12.75,0 15.25,1.625 16.25,4 C17.125,6.125 16.75,8.375 15.25,9.875 C14.625,10.5 13.875,10.875 13.25,11.25 C12.125,11.875 11.75,12.5 11.75,13.75 Z M12.375,17.5 C12.375,18.88125 11.25625,20 9.875,20 C8.49375,20 7.375,18.88125 7.375,17.5 C7.375,16.11875 8.49375,15 9.875,15 C11.25625,15 12.375,16.11875 12.375,17.5 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

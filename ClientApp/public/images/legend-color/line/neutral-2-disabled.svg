@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="22px" viewBox="0 0 8 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>data-vis/legend-color/line/neutral-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="98.9400663%" id="linearGradient-1">
+            <stop stop-color="#FE9767" offset="0%"></stop>
+            <stop stop-color="#CB7851" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="data-vis/legend-color/line/neutral-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.599999964">
+        <path d="M5,8.17070571 C6.16519237,8.58254212 7,9.69378117 7,11 C7,12.3062188 6.16519237,13.4174579 5,13.8292943 L5,16 L3,16 L3,13.8292943 C1.83480763,13.4174579 1,12.3062188 1,11 C1,9.69378117 1.83480763,8.58254212 3,8.17070571 L3,6 L5,6 L5,8.17070571 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

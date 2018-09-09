@@ -1,0 +1,696 @@
+.blue-popup-wrapper {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background: radial-gradient(circle, #408CF9 0%, #0B6EFD 100%);
+
+    .closeBtnX{
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+    .closeBtnX::before,
+    .closeBtnX::after{
+        width: 20px;
+    }
+    .titleBig{
+        clear: both;
+        width: 100%;
+        text-align: center;
+        font-family: "Open Sans";
+        font-size: 40px;
+        font-weight: 300;
+        color: #FFFFFF;
+        line-height: 56px;
+        text-shadow: 0 2px 3px rgba(0,52,143,0.5);
+        padding-top: 5px;
+        margin: 0 auto;
+    }
+    .DDContainer {
+        margin: 0 auto;
+        display: block;
+        margin-top: 45px;
+        text-align: center;
+    }
+    .DDTitle {
+        color: rgba(255,255,255,0.5);
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 3.82px;
+        line-height: 19px;
+        padding-left: 15px;
+        width: 76%;
+        text-transform: uppercase;
+    }
+    .DDLabel1, .bigContainerofStep.step1 .DDLabel2{
+        font-size: 24px;
+        line-height: 32px;
+        text-shadow: 0 2px 3px rgba(0,52,143,0.5);
+        font-weight: 300;
+        float: left;
+        padding-top: 12px;
+    }
+    .languageDD{
+        float: left;
+        margin-left: 15px;
+        margin-right: 15px;
+        position: relative;
+        .Select-value, .Select-placeholder {
+            height: 64px;
+            padding-top: 14px;
+            font-size: 24px;
+            line-height: 33px;
+            color: #0B6EFD;
+            text-align: left;
+            padding-left: 24px;
+        }
+        .Select-value span{
+            color: #0B6EFD;
+        }
+        .Select-input{
+            position: absolute;
+            top: 0;
+            input{
+                width: 0px!important;
+                border: 0px;
+                border-color: transparent;
+                background-color: transparent;
+                cursor: default;
+            }
+            input:focus{
+                outline: none;
+            }
+        }
+        .Select-input:focus{
+            outline: none;
+        }
+        .Dropdown-root, .Select, .Select-value  {
+            height: 64px;
+            width: 334px;
+            border-radius: 4px;
+            background-color: #FFFFFF;
+        }
+        .Select{
+            box-shadow: 0 2px 4px 0 rgba(0,52,143,0.5);
+        }
+        .Dropdown-root.is-open,  {
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            .Dropdown-control{
+                background-color: rgba(11, 110, 253, 0.1);
+            }
+        }
+        
+        .Dropdown-control, .Dropdown-placeholder, .Dropdown-option{
+            height: 64px;
+        }
+        .Dropdown-menu, .Select-menu-outer{
+            position: relative;
+            margin-top: -64px;
+            box-shadow: 0 2px 4px 0 rgba(0,52,143,0.5);
+            z-index: 99;
+        }
+        .Select-menu-outer div{
+            height: 64px;
+            *{
+                padding-left: 24px;
+                padding-top: 14px;
+            }
+        }
+        .is-focused {
+            .Select-value{
+                background-color: #E4F2FF;
+            }
+            .Select-menu-outer .Select-option.is-focused {
+                background-color: #E4F2FF;
+            }
+        }
+        .Select-menu-outer {
+            .Select-option.is-selected {
+                background-color: #00348F;
+                color: #fff;
+            }
+            .Select-option.is-selected.is-focused {
+                background-color: #023896;
+                color: #fff;
+            }
+        }
+        
+        .Select-menu-outer .Select-option:last-child{
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+        }
+        .Dropdown-option, .Select-menu-outer .Select-option{
+            color: #0B6EFD;	
+            font-size: 24px;	
+            line-height: 33px;
+            border-top: 2px solid #C8DEFF;
+            background-color: #fff;
+            text-align: left;
+        }
+        .Dropdown-option:first-child, .Select-menu-outer .Select-option:first-child{
+            border-top-left-radius: 4px; 
+            border-top-right-radius: 4px; 
+            border-top: 0px;
+        }
+        .Dropdown-option:hover{
+            background-color: #E7F1FF;
+        }
+        .Dropdown-option:hover:hover:after, .Select-menu-outer .Select-option.is-focused:after  {
+            content: "";
+            width: 17px;
+            height: 17px;
+            position: absolute;
+            right: 0;
+            margin-right: 24px;
+            margin-top: 10px;
+        }
+        .Dropdown-placeholder{
+            color: #0B6EFD;
+            font-size: 24px;
+            line-height: 32px;
+            padding-top: 14px;
+            text-align: left;
+            padding-left: 24px;
+        }
+        img.arrowDown, img.arrowDownWh{
+            position: absolute;
+            top: 29px;
+            right: 24px;
+            width: 20px;
+        }
+        
+        img.checkmark{
+            display: none;
+        }
+        .is-open{
+            img.checkmark {
+                position: absolute;
+                top: 25px;
+                right: 24px;
+                width: 17px;
+                display: block;
+            }
+        }
+        img.arrowDownWh{
+            display: none;
+            opacity: 0.5;
+        }
+        .Select.is-open ~ img.arrowDown {
+            display: none;
+        }
+        
+    }
+    .multiselect{
+        .Select-control .Select-multi-value-wrapper {
+            .Select-value{
+                background-color: transparent;
+                width: auto;
+                box-shadow: none;
+                display: none;
+                text-align: left;
+                .Select-value-icon{
+                    display: none;
+                }
+            }
+            .Select-value:first-child {
+                display: block;
+            }
+        }
+        .Select-aria-only{
+            display: none
+        }
+        .Select-control {
+            height: 64px;
+        }
+        .is-focused .Select-control .Select-multi-value-wrapper {
+            .Select-value{
+                background-color: #E4F2FF;
+            }
+        }
+    }
+    
+    .selectedAnOption{
+        .Dropdown-root, .Select, .Select-value{
+            background-color: #00348F;
+            color: #fff;
+        }
+        .Dropdown-placeholder, .Select-value span{
+            color: #fff;
+        }
+        img.arrowDown{
+            display: none;
+        }
+        img.checkmark {
+            position: absolute;
+            top: 25px;
+            right: 24px;
+            width: 17px;
+            display: block;
+        }
+        .is-open ~ img.checkmark {
+            display: none;
+        }
+        .is-focused {
+            .Select-value{
+                background-color: rgba(0, 52, 143, 0.96);
+            }
+        }
+    }
+    .disabledDD{
+        .is-focused {
+            .Select-value{
+                background-color: transparent;
+            }
+        }
+        .Select.has-value.is-focused {
+            box-shadow: 0 4px 4px 0 rgba(0, 52, 143, 0.5);
+            background-color: rgba(18, 90, 200, 0.34);
+        }
+    }
+    .disabledDD.multiselect{
+        .is-focused {
+            .Select-control .Select-multi-value-wrapper .Select-value{
+                box-shadow: 0 4px 4px 0 rgba(0, 52, 143, 0.5);
+                background-color: rgba(18, 90, 200, 0.34);
+            }
+        }
+    }
+    .DDArea{
+        display: inline-block;
+        margin-top: 12px;
+        button{
+            cursor: default;
+        }
+    }
+    select{
+        box-shadow: 0 2px 4px 0 rgba(0, 52, 143, 0.5);
+        height: 64px;
+        min-width: 334px;
+        color: #0B6EFD;
+        border-radius: 4px;
+        overflow: auto;
+        border: 0px;
+        option {
+            height: 64px;
+            background-color: rgba(204,230,255,0);
+            color: #0B6EFD;
+        }
+    }
+    .option{
+        color: #0B6EFD;
+        font-size: 24px;
+        line-height: 33px;
+        border-top: 2px solid #C8DEFF;
+        background-color: #fff;
+        text-align: left;
+        padding-left: 24px;
+        height: 64px;
+        padding-right: 40px;
+        position: relative;
+        img{
+            display: none;
+        }
+    }
+    .option:hover{
+        img{
+            display: block;
+        }
+    }
+    button.selectBTBtn {
+        height: 64px;
+        width: 334px;
+        border-radius: 4px;
+        background-color: #FFFFFF;
+        box-shadow: 0 2px 4px 0 rgba(0, 52, 143, 0.5);
+        color: #0B6EFD;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: left;
+        padding-left: 24px;
+        padding-right: 24px;
+        border: 0px;
+        img{
+            float: right;
+        }
+    }
+    .option:hover:after, .selectedDDVal:after {
+        content: "";
+        width: 17px;
+        height: 17px;
+        position: absolute;
+        right: 0;
+        margin-right: 24px;
+        margin-top: 10px;
+    }
+    .option:hover:after{
+    }
+    .selectedDDVal:after, .selectedDDVal:hover:after{
+    }
+    
+    select option:active, 
+    select option:checked{
+        background: linear-gradient(#00348F,#00348F);
+        background-color: #00348F!important; /* for IE */
+    }
+    select option:first-child:active, 
+    select option:first-child:checked {
+        background: linear-gradient(#00348F,#00348F);
+        background-color: #00348F!important;
+        color: #fff!important,
+    }
+    select option:hover, 
+    select option:focus{
+        background: linear-gradient(#E7F1FF, #E7F1FF);
+        background-color: #E7F1FF !important;
+    }
+
+    .selectedDDVal{
+        background-color: #00348F;
+        color: #fff;
+    }
+    .selectedDDVal:hover, .selectedDDVal:focus{
+        background: linear-gradient(#00348f, #00348f);
+        background-color: #00348f!important;
+    }
+    .unselectedDDVal:checked, .unselectedDDVal:active{
+        background: linear-gradient(#fff, #fff)!important;
+        background-color: #fff !important;
+        color: #0B6EFD!important;
+    }
+    select option:first-child{
+        border: 0px;
+    }
+    button.finishMultipleChoise {
+        height: 48px;
+        width: 100px;
+        border-radius: 4px;
+        border: 0px;
+        background-color: #FFFFFF;
+        color: #0B6EFD;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: center;
+        clear: both;
+        display: block;
+        margin: 0 auto;
+        margin-top: 48px;
+        margin-bottom: 40px;
+    }
+    button.finishMultipleChoise:disabled,
+    button.finishMultipleChoise[disabled]{
+        background-color: #71BAFD;
+    }
+    button.finishMultipleChoise:focus {
+        box-shadow: 0 4px 4px 0 rgba(0, 52, 143, 0.5);
+        background-color: #E4F2FF;
+    }
+    .DDArea.step2 {
+        .Dropdown-root, .Select, .Select-value{
+            width: 226px;
+        }
+    }
+    .DDArea.step3 {
+        .Dropdown-root, .Select, .Select-value{
+            width: 215px;
+        }
+    }
+    .DDArea.step4{ 
+        .selectBTBtn, .select{
+            width: 328px;
+        }
+    }
+    .DDArea.step5{ 
+        .selectBTBtn, .select{
+            width: 368px;
+        }
+    }
+    .DDArea.step5{
+        .selectBTBtn, .select{
+            width: 368px;
+        }
+    }
+    .disabledDD{
+        .Dropdown-root, .selectBTBtn, .Select, .Select-value, .Select-value span.Select-value-label{
+            background-color: transparent;
+            color: #fff;
+        }
+        .Select{
+            border: 2px solid #6EA9E1;
+            box-shadow: 0 2px 4px 0 rgba(0,52,143,0.5);
+        }
+        img.arrowDown{
+            display: none;
+        }
+        img.arrowDownWh{
+            display: block;
+        }
+        img.checkmark{
+            display: none;
+        }
+    }
+}
+.blue-popup-wrapper.step2, .blue-popup-wrapper.step3, .blue-popup-wrapper.step4, .blue-popup-wrapper.step5, .blue-popup-wrapper.step6, .blue-popup-wrapper.step7{
+    .DDContainer {
+        text-align: left;
+    }
+    .bigContainerofStep {
+        float: left;
+    }
+    .DDTitle{
+        text-align: center;
+    }
+    .bigContainerofStep.step2{
+        .DDTitle{
+            width: 88%;
+            text-align: right;
+        }
+    }
+    .bigContainerofStep.step1{
+        .DDTitle{
+            width: 71%;
+        }
+    }
+    .bigContainerofStep.step3, .bigContainerofStep.step4, .bigContainerofStep.step5{
+        padding-top: 15px;
+    }
+    .bigContainerofStep.step5{
+        width: 100%;
+        text-align: center;
+    }
+}
+.blue-popup-wrapper.step3{
+    .bigContainerofStep.step3{
+        width: 100%;
+        text-align: center;
+        .DDTitle{
+            width: 76%;
+            float: right;
+        }
+    }
+}
+.blue-popup-wrapper.step4, .blue-popup-wrapper.step5, .blue-popup-wrapper.step6, .blue-popup-wrapper.step7{
+    .bigContainerofStep.step3{
+        margin-left: -35px;
+        .DDTitle{
+            text-align: right;
+            width: 89%;
+        }
+    }
+    .DDArea.step4{
+        .languageDD{
+            margin-right: 0px;
+        }
+    }
+    .bigContainerofStep.step4{
+        .DDTitle{
+            width: 82%;
+            text-align: right;
+        }
+    }
+    .bigContainerofStep.step5{
+        .DDTitle{
+            width: 94%;
+            text-align: center;
+        }
+    }
+    .bigContainerofStep.step7 {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+.blue-popup-wrapper.step6, .blue-popup-wrapper.step7{
+    .DDContainer{
+        text-align: center;
+        display: table;
+    }
+}
+.blue-popup-wrapper.step5, .blue-popup-wrapper.step6{
+    .bigContainerofStep.step5{
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 400px){
+    .blue-popup-wrapper{
+        .DDLabel1, .bigContainerofStep.step1 .DDLabel2 {
+            font-size: 22px;
+        }
+    }
+}
+@media (max-width: 800px){
+    .blue-popup-wrapper {
+        .titleBig {
+            text-align: left;
+        }
+        .bigContainerofStep.step1{
+            .DDLabel1{
+                padding-top: 15px;
+            }
+        }
+        .DDLabel1, .bigContainerofStep.step1 .DDLabel2{
+            width: 100%;
+            text-align: left;
+        }
+        .DDLabel1{
+            padding-top: 0px;
+            padding-bottom: 15px;
+        }
+        .bigContainerofStep.step1 .DDLabel2{
+            padding-top: 15px;
+            padding-bottom: 0px;
+            margin-top: 12px;
+        }
+        .DDArea{
+            display: block;
+        }
+        .languageDD{
+            margin-left: 0px;
+            width: 100%;
+                
+            .Dropdown-root, .Select, .Select-value{
+                width: 100%;
+            }
+        }
+        .DDArea.step2, .DDArea.step3{
+            .Dropdown-root,  .Select, .Select-value{
+                width: 100%;
+            }
+        }
+        .bigContainerofStep{
+            width: 100%;
+            text-align: left;
+            position: relative;
+        }
+        .DDArea.step4{
+            .selectBTBtn, .select{
+                width: 100%;
+            }
+        }
+        .DDArea.step5{
+            .selectBTBtn, .select{
+                width: 100%;
+            }
+        }
+        .selectBTBtn, .select{
+            width: 100%;
+        }
+        button.finishMultipleChoise{
+            width: 100%;
+            margin-top: 20px;
+        }
+        .bigContainerofStep.step3{
+            margin-left: 0px!important;
+        }
+    }
+    .blue-popup-wrapper.step2, .blue-popup-wrapper.step3, .blue-popup-wrapper.step4, .blue-popup-wrapper.step5, .blue-popup-wrapper.step6, .blue-popup-wrapper.step7{
+        .bigContainerofStep.step2{
+            .DDLabel1{
+                position: absolute;
+                margin-top: -44px;
+                left: 95px;
+                width: 82%;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 800px){
+    .blue-popup-wrapper.step2 .bigContainerofStep.step2 .DDLabel1, .blue-popup-wrapper.step3 .bigContainerofStep.step2 .DDLabel1, .blue-popup-wrapper.step4 .bigContainerofStep.step2 .DDLabel1, .blue-popup-wrapper.step5 .bigContainerofStep.step2 .DDLabel1, .blue-popup-wrapper.step6 .bigContainerofStep.step2 .DDLabel1, .blue-popup-wrapper.step7 .bigContainerofStep.step2 .DDLabel1 {
+        width: 74%;
+    }
+}
+@media (min-width: 800px) and (max-width: 1200px){
+    .blue-popup-wrapper {
+        .bigContainerofStep.step1 .DDTitle{
+            width: 79%!important;
+        }
+        .hideunder1200{
+            display: none;
+        }
+        .bigContainerofStep.step2{
+            margin-top: 15px;
+        }
+        .bigContainerofStep.step3{
+            .DDTitle{
+                width: 75%;
+            }
+        }
+        
+    }
+    .blue-popup-wrapper.step2, .blue-popup-wrapper.step3, .blue-popup-wrapper.step4, .blue-popup-wrapper.step5, .blue-popup-wrapper.step6, .blue-popup-wrapper.step7{
+        .DDContainer {
+            text-align: center;
+        }
+        .bigContainerofStep {
+            float: none;
+        }
+        .bigContainerofStep.step2{
+            .DDTitle{
+                width: 74%;
+            }
+        }
+        .bigContainerofStep.step4{
+            .DDTitle{
+                width: 77%;
+            }
+        }
+        .bigContainerofStep.step3 .DDTitle {
+            width: 68%;
+            float: right;
+            text-align: center;
+        }
+    }
+    .blue-popup-wrapper.step4, .blue-popup-wrapper.step5, .blue-popup-wrapper.step6, .blue-popup-wrapper.step7{
+        .bigContainerofStep.step3{
+            margin-left: 0px;
+        }
+    }
+}
+@media (min-width: 1200px) and (max-width: 1400px){
+    .blue-popup-wrapper {
+        .languageDD {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .DDArea.step4 .selectBTBtn, .DDArea.step4 .select{
+            width: 300px;
+        }
+        select{
+            min-width: 300px;
+        }
+        .bigContainerofStep.step4{
+            
+            margin-right: -35px;
+            .DDTitle{
+                width: 86%!important;
+            }
+        }
+    }
+}

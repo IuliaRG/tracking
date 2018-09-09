@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/flag</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M16.9999118,19.9998825 C16.9160169,19.9998825 16.8325674,19.9768008 16.7588814,19.9308556 L9.72722732,15.5359087 L2.69557319,19.9308556 C2.55530583,20.018746 2.37819323,20.0229641 2.23437135,19.9428419 C2.08966765,19.8627196 2,19.7106887 2,19.5453397 L2,0.454542783 C2,0.203521531 2.20330335,0 2.45454278,0 L16.9999118,0 C17.2511513,0 17.4544546,0.203521531 17.4544546,0.454542783 L17.4544546,19.5453397 C17.4544546,19.7106887 17.364787,19.8627196 17.2200833,19.9428419 C17.15172,19.9810189 17.0758159,19.9998825 16.9999118,19.9998825 Z" id="path-1"></path>
+    </defs>
+    <g id="UI-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Kit---3" transform="translate(-267.000000, -343.000000)" fill-rule="nonzero">
+            <g id="icon/flag" transform="translate(265.000000, 343.000000)">
+                <g id="Shape">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <path stroke="#FFFFFF" stroke-width="1" d="M2.5,19.4634634 L9.72722732,14.9462787 L9.99223386,15.111914 L16.9544546,19.4634637 L16.9544546,0.5 L2.5,0.5 L2.5,19.4634634 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

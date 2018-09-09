@@ -1,0 +1,11 @@
+image: node:8.9.4
+
+pipelines:
+  default:
+    - step:
+        caches:
+          - node
+        script:
+          - npm install -g yarn
+          - yarn install
+          - yarn deploy

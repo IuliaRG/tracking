@@ -1,0 +1,100 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+$primaryColor: rgb(104, 93, 93);
+$lightGrey: #cccccc;
+
+body {
+    background: $lightGrey;
+}
+* {
+    color: #000;
+    font-family: "Open Sans";
+}
+.fa {
+    font: normal normal normal 14px/1 FontAwesome;
+}
+.jumbotron{
+    background-color: transparent;
+    padding-top: 0px;
+}
+a{ 
+    cursor: pointer; 
+}
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.chaseApp{
+    .container-fluid{
+        padding: 0;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+}
+
+.displayNone{
+    display: none;
+}
+.displayBlock{
+    display: block;
+}
+
+/* X btn */
+.close {
+    width: 15px;
+    opacity: 1;
+    height: 22px;
+}
+.close:before,
+.close:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 15px;
+    margin-top: 12px;
+    background: #fff;
+}
+.close:before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.close:after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+/* X btn */
+button, .checkmark{
+    cursor: pointer;
+}
+.help-block { 
+    font-size: 12px; 
+}
+.ddNotClicked{
+    visibility: hidden;
+}
+.ddClicked{
+    visibility: visible;
+}
+@media (min-width: 1200px){
+    .container {
+        max-width: 1175px;
+    }
+}
+@media (min-width: 1400px){
+    .container {
+        max-width: 1272px;
+    }
+}
+
+/*** DELETE Not Necessary Elements When Mobile ***/
+@media (max-width: 800px){
+    .dnOnSmallDevice {
+        display: none;
+    }
+}

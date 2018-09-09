@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/flag-border</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Kit---3" transform="translate(-307.000000, -343.000000)" stroke="#FFFFFF" fill-rule="nonzero">
+            <g id="icon/flag-border" transform="translate(305.000000, 343.000000)">
+                <path d="M2.5,19.4634634 L9.72722732,14.9462787 L9.99223386,15.111914 L16.9544546,19.4634637 L16.9544546,0.5 L2.5,0.5 L2.5,19.4634634 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

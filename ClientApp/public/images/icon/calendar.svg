@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/calendar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Kit---3" transform="translate(-146.000000, -342.000000)" fill="#FFFFFF">
+            <g id="icon/calendar" transform="translate(145.000000, 342.000000)">
+                <path d="M2.97530864,18 L16.8024691,18 L16.8024691,7 L2.97530864,7 L2.97530864,18 Z M16.8024691,2 L15.8148148,2 L15.8148148,0 L13.8395062,0 L13.8395062,2 L5.9382716,2 L5.9382716,0 L3.96296296,0 L3.96296296,2 L2.97530864,2 C1.87901235,2 1.00987654,2.9 1.00987654,4 L1,18 C1,19.1 1.87901235,20 2.97530864,20 L16.8024691,20 C17.8888889,20 18.7777778,19.1 18.7777778,18 L18.7777778,4 C18.7777778,2.9 17.8888889,2 16.8024691,2 L16.8024691,2 Z M12.8518519,11 L14.8271605,11 L14.8271605,9 L12.8518519,9 L12.8518519,11 Z M8.90123457,11 L10.8765432,11 L10.8765432,9 L8.90123457,9 L8.90123457,11 Z M4.95061728,11 L6.92592593,11 L6.92592593,9 L4.95061728,9 L4.95061728,11 Z" id="Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

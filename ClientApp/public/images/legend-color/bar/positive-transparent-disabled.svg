@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="22px" viewBox="0 0 8 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>data-vis/legend-color/bar/positive</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="97.9773791%" id="linearGradient-1">
+            <stop stop-color="#38C4B4" offset="0%"></stop>
+            <stop stop-color="#31AD9F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="data-vis/legend-color/bar/positive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.299999964">
+        <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="7" width="8" height="8" rx="2"></rect>
+    </g>
+</svg>
