@@ -1,0 +1,17 @@
+c:\users\iulia\source\repos\Core\CoreProject\bin\Debug\netcoreapp2.0\CoreProject.deps.json
+c:\users\iulia\source\repos\Core\CoreProject\bin\Debug\netcoreapp2.0\CoreProject.runtimeconfig.json
+c:\users\iulia\source\repos\Core\CoreProject\bin\Debug\netcoreapp2.0\CoreProject.runtimeconfig.dev.json
+c:\users\iulia\source\repos\Core\CoreProject\bin\Debug\netcoreapp2.0\CoreProject.dll
+c:\users\iulia\source\repos\Core\CoreProject\bin\Debug\netcoreapp2.0\CoreProject.pdb
+c:\users\iulia\source\repos\Core\CoreProject\obj\Debug\netcoreapp2.0\CoreProject.csprojResolveAssemblyReference.cache
+c:\users\iulia\source\repos\Core\CoreProject\obj\Debug\netcoreapp2.0\CoreProject.csproj.CoreCompileInputs.cache
+c:\users\iulia\source\repos\Core\CoreProject\obj\Debug\netcoreapp2.0\CoreProject.AssemblyInfoInputs.cache
+c:\users\iulia\source\repos\Core\CoreProject\obj\Debug\netcoreapp2.0\CoreProject.AssemblyInfo.cs
+c:\users\iulia\source\repos\Core\CoreProject\obj\Debug\netcoreapp2.0\CoreProject.dll
+c:\users\iulia\source\repos\Core\CoreProject\obj\Debug\netcoreapp2.0\CoreProject.pdb
+C:\Users\Iulia\source\repos\Core\CoreProject\bin\Debug\netcoreapp2.0\BusinessLogic.dll
+C:\Users\Iulia\source\repos\Core\CoreProject\bin\Debug\netcoreapp2.0\Common.dll
+C:\Users\Iulia\source\repos\Core\CoreProject\bin\Debug\netcoreapp2.0\DAL.dll
+C:\Users\Iulia\source\repos\Core\CoreProject\bin\Debug\netcoreapp2.0\Common.pdb
+C:\Users\Iulia\source\repos\Core\CoreProject\bin\Debug\netcoreapp2.0\DAL.pdb
+C:\Users\Iulia\source\repos\Core\CoreProject\bin\Debug\netcoreapp2.0\BusinessLogic.pdb

@@ -1,0 +1,13 @@
+C:\Users\Iulia\source\repos\Core\DAL\bin\Debug\netcoreapp2.0.3\DAL.deps.json
+C:\Users\Iulia\source\repos\Core\DAL\bin\Debug\netcoreapp2.0.3\DAL.dll
+C:\Users\Iulia\source\repos\Core\DAL\bin\Debug\netcoreapp2.0.3\DAL.pdb
+C:\Users\Iulia\source\repos\Core\DAL\bin\Debug\netcoreapp2.0.3\BusinessLogic.dll
+C:\Users\Iulia\source\repos\Core\DAL\bin\Debug\netcoreapp2.0.3\Common.dll
+C:\Users\Iulia\source\repos\Core\DAL\bin\Debug\netcoreapp2.0.3\BusinessLogic.pdb
+C:\Users\Iulia\source\repos\Core\DAL\bin\Debug\netcoreapp2.0.3\Common.pdb
+C:\Users\Iulia\source\repos\Core\DAL\obj\Debug\netcoreapp2.0.3\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Iulia\source\repos\Core\DAL\obj\Debug\netcoreapp2.0.3\DAL.AssemblyInfoInputs.cache
+C:\Users\Iulia\source\repos\Core\DAL\obj\Debug\netcoreapp2.0.3\DAL.AssemblyInfo.cs
+C:\Users\Iulia\source\repos\Core\DAL\obj\Debug\netcoreapp2.0.3\DAL.dll
+C:\Users\Iulia\source\repos\Core\DAL\obj\Debug\netcoreapp2.0.3\DAL.pdb
+C:\Users\Iulia\source\repos\Core\DAL\obj\Debug\netcoreapp2.0.3\DAL.csprojResolveAssemblyReference.cache

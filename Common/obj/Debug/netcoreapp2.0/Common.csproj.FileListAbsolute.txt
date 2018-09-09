@@ -1,0 +1,9 @@
+C:\Users\Iulia\source\repos\Core\Common\bin\Debug\netcoreapp2.0\Common.deps.json
+C:\Users\Iulia\source\repos\Core\Common\bin\Debug\netcoreapp2.0\Common.dll
+C:\Users\Iulia\source\repos\Core\Common\bin\Debug\netcoreapp2.0\Common.pdb
+C:\Users\Iulia\source\repos\Core\Common\obj\Debug\netcoreapp2.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\Iulia\source\repos\Core\Common\obj\Debug\netcoreapp2.0\Common.AssemblyInfoInputs.cache
+C:\Users\Iulia\source\repos\Core\Common\obj\Debug\netcoreapp2.0\Common.AssemblyInfo.cs
+C:\Users\Iulia\source\repos\Core\Common\obj\Debug\netcoreapp2.0\Common.dll
+C:\Users\Iulia\source\repos\Core\Common\obj\Debug\netcoreapp2.0\Common.pdb
+C:\Users\Iulia\source\repos\Core\Common\obj\Debug\netcoreapp2.0\Common.csprojResolveAssemblyReference.cache
